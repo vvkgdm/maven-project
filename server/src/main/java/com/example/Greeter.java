@@ -1,5 +1,5 @@
 package com.example;
-
+package-info.java 
 /**
  * This is a class.
  */
@@ -12,9 +12,7 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
-  public final String greet(String someone) {
+   public final String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
-
